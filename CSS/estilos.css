@@ -3,7 +3,34 @@
     padding: 0%;
 }
 
-.navbar-custom {
+.navbar-custom , .py-5{
 
     background-color: #facaa8;
 }
+
+
+body{
+    background: url('../IMG/fondo2.jpg') center/cover no-repeat;
+
+}
+
+
+iframe {
+    width: 100%; /* Ancho del iframe al 100% del contenedor */
+    height: auto; /* Altura automática según el contenido */
+    border: none; /* Sin borde */
+    overflow: hidden; /* Oculta el desbordamiento del contenido */
+}
+
+
+
+  /* Estilos personalizados para el carrusel */
+  #carouselExampleIndicators {
+    max-width: 800px; /* Ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel horizontalmente */
+}
+
+.carousel-item img, h5, p{
+    max-height: 400px; /* Altura máxima de las imágenes del carrusel */
+    object-fit: cover; /* Escala la imagen para que se ajuste dentro del contenedor */
+} 
