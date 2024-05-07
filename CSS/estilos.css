@@ -34,3 +34,12 @@ iframe {
     max-height: 400px; /* Altura máxima de las imágenes del carrusel */
     object-fit: cover; /* Escala la imagen para que se ajuste dentro del contenedor */
 } 
+*{
+    margin:0% ;
+    padding: 0%;
+}
+
+.navbar-custom {
+
+    background-color: #facaa8;
+}
