@@ -1,50 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Inicio</title>
-</head>
-<body>
-<iframe src="head.html" frameborder="0" width="100%" height="auto"> </iframe>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="s ha512-jDVniwZiUJH86OMR3zj++e88vHCSwtZcv6oXN9Y0qf9vFZcfR6WSR9ujOoRgA6UrgC6bD5jNUfNC/eL0h2R/ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+        <title>Inicio</title>
+    </head>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="IMG/fondo.casa.png" alt="First slide" max-width="100%">
+
+        <!----------------------------barra de navegacion------------------------------------------------->
+      <nav class="navbar navbar-expand-lg navbar-custom ">
+        <div class="container">
+    
+          <!------------- ----------- Logo --------------------------------------------------------------->
+          <img src="IMG/logo.png" alt="Logo" height="50">
+          <a class="navbar-brand" href="#">  Rincón Café</a>
+    
+          <!------------------------ Botón de colapsar para pantallas pequeñas ------------------------->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!------------------------ Elementos de navegación ---------------------------------------------->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto"> 
+              <li class="nav-item active">
+                <a class="nav-link" href="Inicio.html">Inicio <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       
+       
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="IMG/banner.png" alt="First slide" max-width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="IMG/cafeteria.png" alt="Second slide" max-width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="IMG/medialunas.png" alt="Third slide" max-width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="IMG/helados.png" alt="Third slide" max-width="100%">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+        </div>  
+
+
+        <div class="col-12 col-md-6">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, magni rerum placeat molestias sunt est quas ad minus eius eligendi dolores laborum maiores et dignissimos 
+            debitis ipsa assumenda, dolorem nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda accusantium ipsam consequatur, autem tempora fugiat mollitia 
+            facere, earum libero dignissimos quo deleniti recusandae itaque laboriosam, sed inventore error odit ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Cumque reiciendis quibusdam soluta commodi officia qui neque, consectetur, fugit nam deserunt, laborum dolorem provident iste? Tempore sequi temporibus et voluptatem placeat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eum et facere nemo qui quidem aut. Rem veritatis natus, provident veniam placeat praesentium, 
+            nisi beatae omnis officia, odit debitis autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus laudantium, vel nostrum alias quod eos ipsum et 
+            at inventore dolores animi asperiores quia aut dicta libero vitae facilis? Autem consectetur eveniet veritatis recusandae, nostrum delectus distinctio. Odio, esse repudiandae 
+            ex accusantium reprehenderit exercitationem, illo veniam aspernatur sit rerum facilis unde, soluta itaque vero libero eos ipsum. Provident fuga fugiat eius unde eos non et ab 
+         
+          </p>
+
+          <img class="col-12 col-md-6" src="IMG/Cappuccino.jpg">
+
+
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta nihil molestiae quidem voluptates odit ab, expedita ut distinctio autem eius quam quis pariatur quos veniam deleniti cum quaerat odio.</p>
+
+
+
+       
+    
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Sección 1</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4 mb-3">
+          <h5>Sección 2</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-4 mb-3">
+          <h5>Suscríbete</h5>
+          <p>Recibe las últimas novedades:</p>
+          <form>
+            <div class="d-flex flex-column flex-sm-row gap-2">
+              <label for="newsletter" class="visually-hidden">Email</label>
+              <input id="newsletter" type="text" class="form-control" placeholder="Email">
+              <button class="btn btn-primary" type="button">Suscribirse</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="IMG/banner.web.png" alt="Second slide" max-width="100%">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="IMG/fondo.png" alt="Third slide" max-width="100%">
+  
+      <hr class="border-top">
+  
+      <div class="d-flex justify-content-between align-items-center py-4">
+        <p class="m-0">&copy; 2024 Company, Inc. Todos los derechos reservados.</p>
+        <ul class="list-inline m-0">
+          <li class="list-inline-item"><a class="link-dark" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a class="link-dark" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a class="link-dark" href="#"><i class="fab fa-facebook"></i></a></li>
+        </ul>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+  </footer>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta nihil molestiae quidem voluptates odit ab, expedita ut distinctio autem eius quam quis pariatur quos veniam deleniti cum quaerat odio.</p>
-
-<!--<iframe src="footer.html" frameborder="0" width="100%" height="auto"></iframe> -->
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script> $('.carousel').carousel() </script>
+  
+ <!----------------scrips de bootstrap------------------->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script> $('.carousel').carousel() </script>  <!--inicio del carrusel-->
 
 </body>
 </html>

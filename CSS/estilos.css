@@ -1,16 +1,24 @@
+
+
 *{
     margin:0% ;
     padding: 0%;
 }
 
-.navbar-custom , .py-5{
+.navbar-custom , .container{
 
     background-color: #facaa8;
 }
 
+.container {
+    background-color: #facaa8;
+    margin-bottom: 0%;
+}
+
 
 body{
-    background: url('../IMG/fondo2.jpg') center/cover no-repeat;
+    /*background: url('../IMG/fondo2.jpg') center/cover no-repeat;*/
+    background-color: antiquewhite;
 
 }
 
