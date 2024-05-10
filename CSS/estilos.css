@@ -2,7 +2,14 @@
 
 .navbar-custom {
 
-    background-color: #facaa8;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav a , .navbar-brand {
+  color: #ffffff  !important;
 }
 
 body{
@@ -39,3 +46,11 @@ height: 700PX;
   .noticia img {
     max-width: 40%;
   }
+
+  .custom-container {
+   
+    background-color: #bb9457;
+     
+  }
+
+
