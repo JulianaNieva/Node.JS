@@ -46,26 +46,32 @@ height: 700PX;
 .noticia {
     display: flex;
     align-items: center;
+    padding: 0% 10%;
   }
   
   .contenido {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
   }
   
   .contenido h2 {
     margin-bottom: 10px;
-    color: brown;
+    color: #432818;
   }
   
   .contenido p {
     margin-bottom: 15px;
-    color: brown;
-  }
+    color: #432818;
+   }
   
   .noticia img {
-    max-width: 40%;
+    max-width: 100%; 
+    height: auto; 
+    max-height: 600px; 
+    padding: 3%;
   }
+
+
 
   .custom-container {
    
