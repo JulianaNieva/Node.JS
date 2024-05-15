@@ -43,36 +43,36 @@ height: 700PX;
 }
 
 
+/*--------------------------------SECCION NOTICIAS -----------------------------------------------------------------*/
+
 .noticia {
     display: flex;
     align-items: center;
-    padding: 0% 10%;
+    padding: 0% 5%;
   }
   
   .contenido {
     flex: 1;
-    padding: 30px;
   }
   
   .contenido h2 {
     margin-bottom: 10px;
     color: #432818;
   }
-  
-  .contenido p {
-    margin-bottom: 15px;
-    color: #432818;
+
+  .contenido a {
+    background-color: #631a19;
    }
   
   .noticia img {
-    max-width: 100%; 
-    height: auto; 
-    max-height: 600px; 
+    max-width: 50%;
+    height: auto;  
     padding: 3%;
   }
 
 
 
+  /*-----------------------------------PIE DE PAGINA -----------------------------------------*/
   .custom-container {
    
     background-color: #bb9457;
